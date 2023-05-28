@@ -1,0 +1,6 @@
+{
+    "name": "book-card",
+    "version": "0.0.0",
+    "private": true,
+    "main": "BookCard.js"
+}

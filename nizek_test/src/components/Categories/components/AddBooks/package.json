@@ -1,0 +1,6 @@
+{
+    "name": "add-books",
+    "version": "0.0.0",
+    "private": true,
+    "main": "AddBooks.js"
+}

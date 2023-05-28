@@ -1,0 +1,15 @@
+@use '../../assets/style';
+
+.root {
+    border: 1px solid style.$primary-color;
+    padding: 4 * style.$eight-pixel;
+    width: calc(100% - 96px);
+
+    .topBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: style.$eight-pixel;
+        border-bottom: 1px solid style.$primary-color;
+    }
+}

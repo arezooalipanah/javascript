@@ -1,0 +1,28 @@
+@use '../../../../assets/style';
+
+.root {
+    border: 1px solid style.$primary-color;
+    margin-top: 2 * style.$eight-pixel;
+    overflow: hidden;
+
+    .topBar {
+        display: flex;
+        align-items: center;
+        padding: style.$eight-pixel;
+        border-bottom: 1px solid style.$primary-color;
+
+        .title {
+            margin-right: style.$eight-pixel;
+        }
+    }
+
+
+    .booksContainer {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 2 * style.$eight-pixel;
+        display: flex;
+    }
+}
