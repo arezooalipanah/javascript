@@ -1,0 +1,38 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  background-color: rgb(78, 177, 177);
+  border: 4px solid red;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.container > div {
+  font-size: 1.4em;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.search {
+  background-color: brown;
+  /* flex: 1; */
+  align-self: flex-start;
+}
+
+.home {
+  background-color: blue;
+  /* flex: 1; */
+  align-self: center;
+}
+
+.login {
+  background-color: rgb(39, 73, 102);
+  /* flex: 1; */
+  align-self: flex-end;
+}
