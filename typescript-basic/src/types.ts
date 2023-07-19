@@ -124,6 +124,7 @@ let ride = {
   // speed: speed !== null ? speed : 30,
   speed: speed ?? 30,
 };
+console.log("target", ride.speed);
 
 // type assertion
 let phone = document.getElementById("phone") as HTMLInputElement;
